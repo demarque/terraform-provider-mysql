@@ -1,3 +1,7 @@
+# Terraform Mysql Provider
+
+## FORK FROM https://github.com/petoju/terraform-provider-mysql
+
 **This repository is an unofficial fork**
 
 The fork is mostly based of the official (now archived) repo.
