@@ -12,7 +12,7 @@ The ``mysql_ti_config`` resource manages a TiKV or PD variables on a TiDB cluste
 
 ~> **Note on TiDB:** Possible TiKV or PD variables are available [here](https://docs.pingcap.com/tidb/stable/dynamic-config)
 
-~> **Note about `destroy`:** `destroy` is trying restore default values as described [here](https://github.com/petoju/terraform-provider-mysql/blob/master/mysql/resource_ti_config_defaults.go).
+~> **Note about `destroy`:** `destroy` is trying restore default values as described [here](https://github.com/demarque/terraform-provider-mysql/blob/master/mysql/resource_ti_config_defaults.go).
   Unfortunately not every variable support this.
 
 ## Example Usage
