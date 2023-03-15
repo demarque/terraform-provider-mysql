@@ -1,0 +1,10 @@
+name: Checkov Analysis
+
+on: push
+
+permissions: read-all
+
+jobs:
+  test:
+    name: Checkov Analysis
+    uses: demarque/github-action-templates/.github/workflows/template-checkov-analysis.yaml@gh-workflow-templates-v3
