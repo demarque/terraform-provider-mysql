@@ -1,3 +1,5 @@
+> :warning: **This is a public repository**: Be very careful here!
+
 # Terraform Mysql Provider
 
 
@@ -14,3 +16,5 @@ https://github.com/orgs/demarque/people/demarque-infra
 - Create a tag for the new version
 
 - Make sure the publish workflow succeeded
+
+- Remove the previously added owner permission
